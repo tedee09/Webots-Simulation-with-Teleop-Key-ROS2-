@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_listener = aruco.aruco_listener:main
+

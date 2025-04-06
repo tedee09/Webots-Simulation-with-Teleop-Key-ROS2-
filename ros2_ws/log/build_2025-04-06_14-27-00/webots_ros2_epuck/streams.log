@@ -1,0 +1,69 @@
+[1.215s] Invoking command in '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/src/webots_ros2/webots_ros2_epuck': AMENT_PREFIX_PATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_control:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_driver:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_msgs:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_control:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_driver:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_msgs LD_LIBRARY_PATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_control/lib:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_driver/lib:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build install --record /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed install_data
+[1.403s] running egg_info
+[1.404s] creating ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info
+[1.404s] writing ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/PKG-INFO
+[1.404s] writing dependency_links to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/dependency_links.txt
+[1.404s] writing entry points to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/entry_points.txt
+[1.404s] writing requirements to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/requires.txt
+[1.404s] writing top-level names to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/top_level.txt
+[1.404s] writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.405s] reading manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.406s] writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.406s] running build
+[1.407s] running build_py
+[1.407s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build
+[1.407s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib
+[1.407s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.407s] copying webots_ros2_epuck/epuck_node.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.407s] copying webots_ros2_epuck/simple_mapper.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.407s] copying webots_ros2_epuck/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.407s] copying webots_ros2_epuck/drive_calibrator.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.407s] running install
+[1.407s] running install_lib
+[1.407s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.407s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/epuck_node.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.407s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/simple_mapper.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.407s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.407s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/drive_calibrator.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.407s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/epuck_node.py to epuck_node.cpython-310.pyc
+[1.408s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/simple_mapper.py to simple_mapper.cpython-310.pyc
+[1.409s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/__init__.py to __init__.cpython-310.pyc
+[1.409s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/drive_calibrator.py to drive_calibrator.cpython-310.pyc
+[1.409s] running install_data
+[1.409s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/ament_index
+[1.409s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index
+[1.409s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index/packages
+[1.410s] copying resource/webots_ros2_epuck -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/ament_index/resource_index/packages
+[1.410s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.410s] copying launch/robot_launch.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.410s] copying launch/robot_tools_launch.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.410s] copying launch/rats_life_launch.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.410s] copying launch/rats_life_waypoints_launch.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.410s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.410s] copying worlds/epuck_world.wbt -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.410s] copying worlds/.epuck_world.wbproj -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.410s] copying worlds/rats_life_benchmark.wbt -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.410s] copying worlds/.rats_life_benchmark.wbproj -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.410s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[1.410s] copying protos/LegoTallInterval.proto -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[1.410s] copying protos/LegoTallWall.proto -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[1.410s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/all.rviz -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/nav2_params.yaml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/nav2_params_iron.yaml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/map_rats_life.pgm -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/map_rats_life.yaml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/nav2_rats_life_waypoints.yaml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/epuck_world_map.pgm -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/epuck_world_map.yaml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/epuck_webots.urdf -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.410s] copying resource/ros2_control.yml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.411s] copying package.xml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/share/webots_ros2_epuck
+[1.411s] running install_egg_info
+[1.412s] Copying ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck-2025.0.0-py3.10.egg-info
+[1.412s] running install_scripts
+[1.428s] Installing drive_calibrator script to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.428s] Installing epuck_node script to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.428s] Installing simple_mapper script to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.428s] writing list of installed files to '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/install.log'
+[1.451s] Invoked command in '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/src/webots_ros2/webots_ros2_epuck' returned '0': AMENT_PREFIX_PATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_control:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_driver:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_msgs:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_control:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_driver:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_msgs LD_LIBRARY_PATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_control/lib:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_driver/lib:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/build install --record /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed install_data

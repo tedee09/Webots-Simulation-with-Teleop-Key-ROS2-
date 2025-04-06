@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/aruco/aruco.egg-info
+writing ../../build/aruco/aruco.egg-info/PKG-INFO
+writing dependency_links to ../../build/aruco/aruco.egg-info/dependency_links.txt
+writing entry points to ../../build/aruco/aruco.egg-info/entry_points.txt
+writing requirements to ../../build/aruco/aruco.egg-info/requires.txt
+writing top-level names to ../../build/aruco/aruco.egg-info/top_level.txt
+writing manifest file '../../build/aruco/aruco.egg-info/SOURCES.txt'
+reading manifest file '../../build/aruco/aruco.egg-info/SOURCES.txt'
+writing manifest file '../../build/aruco/aruco.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build
+creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib
+creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco
+copying aruco/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco
+copying aruco/aruco_listener.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco
+running install
+running install_lib
+creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco
+copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco
+copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco/aruco_listener.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco
+byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco/aruco_listener.py to aruco_listener.cpython-310.pyc
+running install_data
+creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/ament_index
+creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/ament_index/resource_index
+creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/ament_index/resource_index/packages
+copying resource/aruco -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/ament_index/resource_index/packages
+copying package.xml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/aruco
+running install_egg_info
+Copying ../../build/aruco/aruco.egg-info to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_listener script to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/aruco
+writing list of installed files to '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/install.log'

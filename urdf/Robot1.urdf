@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<robot name="/home/tedee/Path-Planning-Swarm-Robot-Simulation-in-Webots/urdf/Robot1.urdf" xmlns:xacro="http://ros.org/wiki/xacro">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.125 0.065 0.076"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.125 0.065 0.076"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="solid">
+  </link>
+  <joint name="base_link_solid_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="solid"/>
+    <origin xyz="-0.0035 0.000126 -0.00627" rpy="0 0 0"/>
+  </joint>
+  <joint name="motor_kanan_depan" type="continuous">
+    <parent link="base_link"/>
+    <child link="solid(1)"/>
+    <axis xyz="0 0.000006 -1"/>
+    <limit effort="10" velocity="10"/>
+    <origin xyz="0.02774 -0.0421 -0.02683" rpy="1.57079 0 0"/>
+  </joint>
+  <link name="solid(1)">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.016"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.016"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="motor_kiri_depan" type="continuous">
+    <parent link="base_link"/>
+    <child link="solid(2)"/>
+    <axis xyz="0 0.000001 1"/>
+    <limit effort="10" velocity="10"/>
+    <origin xyz="0.02774 0.04255 -0.02683" rpy="-1.570795 0 0"/>
+  </joint>
+  <link name="solid(2)">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.016"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.016"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="motor_kiri_belakang" type="continuous">
+    <parent link="base_link"/>
+    <child link="solid(3)"/>
+    <axis xyz="0 0.000001 1"/>
+    <limit effort="10" velocity="10"/>
+    <origin xyz="-0.0457 0.04255 -0.02683" rpy="-1.570795 0 0"/>
+  </joint>
+  <link name="solid(3)">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.016"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.016"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="motor_kanan_belakang" type="continuous">
+    <parent link="base_link"/>
+    <child link="solid(4)"/>
+    <axis xyz="0 -0.000004 -1"/>
+    <limit effort="10" velocity="10"/>
+    <origin xyz="-0.0457 -0.0421 -0.02683" rpy="1.5708 0 0"/>
+  </joint>
+  <link name="solid(4)">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.016"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.016"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="ds_depan">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.002 0.002 0.002"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.002 0.002 0.002"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_ds_depan_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="ds_depan"/>
+    <origin xyz="0.039 0 0.03" rpy="0 0 0"/>
+  </joint>
+  <link name="ds_kanan">
+    <visual>
+      <geometry>
+        <box size="0.002 0.002 0.002"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.002 0.002 0.002"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_ds_kanan_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="ds_kanan"/>
+    <origin xyz="-0.0089 -0.0275 0.0296" rpy="0 0 -1.570795"/>
+  </joint>
+  <link name="ds_kiri">
+    <visual>
+      <geometry>
+        <box size="0.002 0.002 0.002"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.002 0.002 0.002"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_ds_kiri_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="ds_kiri"/>
+    <origin xyz="-0.0089 0.0279 0.0296" rpy="0 0 1.5708"/>
+  </joint>
+  <link name="ds_belakang">
+    <visual>
+      <geometry>
+        <box size="0.002 0.002 0.002"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.002 0.002 0.002"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_ds_belakang_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="ds_belakang"/>
+    <origin xyz="-0.0614 0 0.008" rpy="0 0 3.14159"/>
+  </joint>
+  <link name="global">
+  </link>
+  <joint name="base_link_global_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="global"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="solid_0">
+  </link>
+  <joint name="global_solid_0_joint" type="fixed">
+    <parent link="global"/>
+    <child link="solid_0"/>
+    <origin xyz="0 0 0.041" rpy="0 0 0"/>
+  </joint>
+  <link name="imu">
+  </link>
+  <joint name="base_link_imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu"/>
+    <origin xyz="0.021 0 0.043" rpy="0 0 0"/>
+  </joint>
+  <link name="receiver">
+  </link>
+  <joint name="base_link_receiver_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="receiver"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="emitter">
+  </link>
+  <joint name="base_link_emitter_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="emitter"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="solid(5)">
+  </link>
+  <joint name="base_link_solid(5)_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="solid(5)"/>
+    <origin xyz="0.005 0 0.035" rpy="0 0 -1.5708"/>
+  </joint>
+  <link name="cam">
+  </link>
+  <joint name="base_link_cam_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="cam"/>
+    <origin xyz="0.06 0 0.004" rpy="-1.570796 0 -1.570796"/>
+  </joint>
+</robot>

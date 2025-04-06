@@ -1,0 +1,63 @@
+[0.618s] Invoking command in '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/src/webots_ros2/webots_ros2_importer': PYTHONPATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_importer build --build-base /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build install --record /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/install.log --single-version-externally-managed install_data
+[0.785s] running egg_info
+[0.785s] creating ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info
+[0.785s] writing ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/PKG-INFO
+[0.785s] writing dependency_links to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/dependency_links.txt
+[0.785s] writing entry points to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/entry_points.txt
+[0.785s] writing requirements to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/requires.txt
+[0.785s] writing top-level names to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/top_level.txt
+[0.785s] writing manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.786s] reading manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.787s] writing manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.787s] running build
+[0.787s] running build_py
+[0.787s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build
+[0.787s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib
+[0.787s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.787s] copying webots_ros2_importer/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.787s] copying webots_ros2_importer/urdf2proto.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.787s] copying webots_ros2_importer/xacro2proto.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.787s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots
+[0.787s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.787s] copying webots_ros2_importer/urdf2webots/urdf2webots/parserURDF.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.787s] copying webots_ros2_importer/urdf2webots/urdf2webots/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.787s] copying webots_ros2_importer/urdf2webots/urdf2webots/math_utils.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.787s] copying webots_ros2_importer/urdf2webots/urdf2webots/gazebo_materials.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.787s] copying webots_ros2_importer/urdf2webots/urdf2webots/writeRobot.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.788s] copying webots_ros2_importer/urdf2webots/urdf2webots/importer.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.788s] running install
+[0.788s] running install_lib
+[0.788s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer
+[0.788s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer
+[0.788s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots
+[0.788s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.788s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/parserURDF.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.788s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.789s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/math_utils.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.789s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/gazebo_materials.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.789s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/writeRobot.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.789s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/importer.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.789s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2proto.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer
+[0.789s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/xacro2proto.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer
+[0.789s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/__init__.py to __init__.cpython-310.pyc
+[0.789s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/parserURDF.py to parserURDF.cpython-310.pyc
+[0.794s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/__init__.py to __init__.cpython-310.pyc
+[0.794s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/math_utils.py to math_utils.cpython-310.pyc
+[0.795s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/gazebo_materials.py to gazebo_materials.cpython-310.pyc
+[0.795s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/writeRobot.py to writeRobot.cpython-310.pyc
+[0.798s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/importer.py to importer.cpython-310.pyc
+[0.799s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/urdf2proto.py to urdf2proto.cpython-310.pyc
+[0.799s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer/xacro2proto.py to xacro2proto.cpython-310.pyc
+[0.799s] running install_data
+[0.799s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/share/ament_index
+[0.799s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/share/ament_index/resource_index
+[0.800s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/share/ament_index/resource_index/packages
+[0.800s] copying resource/webots_ros2_importer -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/share/ament_index/resource_index/packages
+[0.800s] copying package.xml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/share/webots_ros2_importer
+[0.800s] running install_egg_info
+[0.801s] Copying ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages/webots_ros2_importer-2025.0.0-py3.10.egg-info
+[0.801s] running install_scripts
+[0.814s] Installing urdf2proto script to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[0.814s] Installing xacro2proto script to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[0.814s] writing list of installed files to '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/install.log'
+[0.829s] Invoked command in '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/src/webots_ros2/webots_ros2_importer' returned '0': PYTHONPATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/webots_ros2_importer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/webots_ros2_importer build --build-base /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/build install --record /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/webots_ros2_importer/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[0.607s] Invoking command in '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/src/aruco': PYTHONPATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco build --build-base /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build install --record /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/install.log --single-version-externally-managed install_data
+[0.773s] running egg_info
+[0.773s] creating ../../build/aruco/aruco.egg-info
+[0.773s] writing ../../build/aruco/aruco.egg-info/PKG-INFO
+[0.773s] writing dependency_links to ../../build/aruco/aruco.egg-info/dependency_links.txt
+[0.773s] writing entry points to ../../build/aruco/aruco.egg-info/entry_points.txt
+[0.773s] writing requirements to ../../build/aruco/aruco.egg-info/requires.txt
+[0.773s] writing top-level names to ../../build/aruco/aruco.egg-info/top_level.txt
+[0.774s] writing manifest file '../../build/aruco/aruco.egg-info/SOURCES.txt'
+[0.774s] reading manifest file '../../build/aruco/aruco.egg-info/SOURCES.txt'
+[0.775s] writing manifest file '../../build/aruco/aruco.egg-info/SOURCES.txt'
+[0.775s] running build
+[0.775s] running build_py
+[0.775s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build
+[0.775s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib
+[0.775s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco
+[0.775s] copying aruco/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco
+[0.775s] copying aruco/aruco_listener.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco
+[0.775s] running install
+[0.775s] running install_lib
+[0.776s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco
+[0.776s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco/__init__.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco
+[0.776s] copying /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build/lib/aruco/aruco_listener.py -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco
+[0.776s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco/__init__.py to __init__.cpython-310.pyc
+[0.776s] byte-compiling /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco/aruco_listener.py to aruco_listener.cpython-310.pyc
+[0.776s] running install_data
+[0.776s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/ament_index
+[0.776s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/ament_index/resource_index
+[0.776s] creating /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/ament_index/resource_index/packages
+[0.776s] copying resource/aruco -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/ament_index/resource_index/packages
+[0.776s] copying package.xml -> /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/share/aruco
+[0.776s] running install_egg_info
+[0.778s] Copying ../../build/aruco/aruco.egg-info to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages/aruco-0.0.0-py3.10.egg-info
+[0.778s] running install_scripts
+[0.791s] Installing aruco_listener script to /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/aruco
+[0.791s] writing list of installed files to '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/install.log'
+[0.806s] Invoked command in '/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/src/aruco' returned '0': PYTHONPATH=/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/install/aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco build --build-base /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/build install --record /home/tedee/Webots-Simulation-with-Teleop-Key/ros2_ws/build/aruco/install.log --single-version-externally-managed install_data
